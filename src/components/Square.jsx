@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-function Square({ value }) {
-  const [value, setValue] = useState(null);
+function Square() {
+  const [value, setValue] = useState(Array(9).fill(null));
 
   function handleClick() {
-    setValue(X);
+    setValue("X");
   }
 
   return (
